@@ -7,7 +7,7 @@ javascript: ( (h, url, mud) => {
     /* Facebook */
     "fbclid",
 
-    /* Urchin */
+    /* UTM parameters */
     "utm_source",
     "utm_medium",
     "utm_campaign",
