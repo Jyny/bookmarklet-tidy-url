@@ -4,6 +4,13 @@ javascript: ( (h, url, mud) => {
     });
     h.replaceState(h.state, null, url.toString());
 })(window.history, new URL(window.location.href), [
-    /* facebook */
+    /* Facebook */
     "fbclid",
+
+    /* Urchin */
+    "utm_source",
+    "utm_medium",
+    "utm_campaign",
+    "utm_term",
+    "utm_content",
 ]);
